@@ -1,0 +1,24 @@
+shopify-python/
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # Точка входа
+│   ├── database.py          # Подключение к БД
+│   ├── models.py            # SQLAlchemy модели
+│   ├── schemas.py           # Pydantic схемы
+│   ├── crud.py              # Операции с БД
+│   ├── dependencies.py      # DI зависимости
+│   ├── auth.py              # JWT логика
+│   └── routes/
+│       ├── __init__.py
+│       ├── auth.py          # /auth эндпоинты
+│       ├── products.py      # /products эндпоинты
+│       ├── cart.py          # /cart эндпоинты
+│       └── orders.py        # /orders эндпоинты
+├── migrations/              # Alembic миграции
+├── tests/                   # Тесты
+├── docker-compose.yml
+├── Dockerfile
+├── .env.example
+├── requirements.txt
+├── .gitignore
+└── README.md
