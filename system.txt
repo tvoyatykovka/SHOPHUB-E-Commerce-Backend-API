@@ -1,24 +1,28 @@
-shopify-python/
+SHOPHUB-E-Commerce-Backend-API/
 ├── app/
-│   ├── __init__.py
-│   ├── main.py              # Точка входа
-│   ├── database.py          # Подключение к БД
-│   ├── models.py            # SQLAlchemy модели
-│   ├── schemas.py           # Pydantic схемы
-│   ├── crud.py              # Операции с БД
-│   ├── dependencies.py      # DI зависимости
-│   ├── auth.py              # JWT логика
+│   ├── __init__.py          
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud.py
+│   ├── auth.py
+│   ├── dependencies.py
 │   └── routes/
 │       ├── __init__.py
-│       ├── auth.py          # /auth эндпоинты
-│       ├── products.py      # /products эндпоинты
-│       ├── cart.py          # /cart эндпоинты
-│       └── orders.py        # /orders эндпоинты
-├── migrations/              # Alembic миграции
-├── tests/                   # Тесты
+│       ├── auth.py
+│       ├── products.py
+│       ├── cart.py
+│       └── orders.py
+├── tests/                   
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_auth.py
+│   └── test_products.py
+├── Dockerfile              
 ├── docker-compose.yml
-├── Dockerfile
-├── .env.example
+├── .env.example             
 ├── requirements.txt
+├── requirements-dev.txt   
 ├── .gitignore
 └── README.md
