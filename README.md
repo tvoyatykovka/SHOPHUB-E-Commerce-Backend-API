@@ -2,6 +2,8 @@
 ![Python Version](https://img.shields.io/badge/python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Python Version](https://img.shields.io/badge/python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)
 
 Честно говоря, я всегда думала, что бэкенд — это что-то сложное и не для меня. Но тут решила попробовать и вот что получилось. 
 Это мой первый полноценный проект на FastAPI. Я хотела сделать что-то, что имеет смысл в реальной жизни, поэтому выбрала бэкенд для интернет-магазина. Я реализовала JWT-аутентификацию, CRUD для товаров, корзину и заказы. Также добавила тесты на ключевые сценарии и обернула проект в Docker. Это был отличный опыт, который помог мне понять, как работают современные веб-приложения изнутри. 
